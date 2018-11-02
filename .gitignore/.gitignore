@@ -1,0 +1,10 @@
+# Folders
+dist
+hooks
+libs
+node_modules
+package
+platforms
+!tns-core-modules/platforms
+reports
+tags

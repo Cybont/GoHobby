@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "GoHobby"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.js": true,
+			"**/*.js.map": true
+		}
+	}
+}

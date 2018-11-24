@@ -1,0 +1,33 @@
+.page {
+    background-color: White;
+}
+
+StackLayout {
+    width: 80%;
+    vertical-align: center;
+}
+    TextField {
+        font-size: 8%;
+        width: 80%;
+        height: 8%;
+        border-width: 1ch;
+        margin: 1ch;
+        border-radius: 5ch;
+        box-shadow: #000000 5ch 1ch;
+    }
+    Image {
+        height: 25%;
+        align-self: center;
+    }
+    .signup {
+        background-color: rgb(223, 93, 104);
+    }
+    .fb-btn { 
+        background-color: #3b5998;
+    }
+    button {
+        width: 50%;
+        height: 8%;
+        margin: 0 0 0 0;
+        font-size: 8%;
+    }

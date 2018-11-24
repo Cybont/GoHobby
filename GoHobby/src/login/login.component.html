@@ -4,13 +4,13 @@
 
 <GridLayout class="page">
     <StackLayout>
-        <Image src="~/img/logo-placeholder.png"></Image>
+        <Image src="~/img/Logo.png"></Image>
         
-        <TextField hint="Enter your username." text="" secure="true"></TextField>
+        <TextField hint="Enter your username." text="" secure="false"></TextField>
         
         <TextField hint="Enter your password." text="" secure="true"></TextField>
 
-        <Button text="Login"></Button>
+        <Button text="Login" (tap)="login()"></Button>
         <Button class="signup" text="Sign up"></Button>
         <Button class="fb-btn" text="Login with facebook"></Button>
     </StackLayout>

@@ -1,17 +1,12 @@
 <ActionBar class="action-bar">
-    <Label class="action-bar-title" text="Login"></Label>
+    <Label class="action-bar-title" text="Login To GoHobby!"></Label>
 </ActionBar>
 
 <GridLayout class="page">
     <StackLayout>
         <Image src="~/img/Logo.png"></Image>
         
-        <TextField hint="Enter your username." text="" secure="false"></TextField>
-        
-        <TextField hint="Enter your password." text="" secure="true"></TextField>
-
-        <Button text="Login" (tap)="login()"></Button>
-        <Button class="signup" text="Sign up"></Button>
-        <Button class="fb-btn" text="Login with facebook"></Button>
+        <Button class="google-btn btn-primary" text="Login With Google" (tap)="login()"></Button>
+        <Button class="fb-btn btn-primary" text="Login with Facebook" (tap)="login()"></Button>
     </StackLayout>
 </GridLayout>

@@ -6,7 +6,7 @@ StackLayout {
     width: 80%;
     vertical-align: center;
 }
-    TextField {
+    /* TextField {
         font-size: 8%;
         width: 80%;
         height: 8%;
@@ -14,20 +14,20 @@ StackLayout {
         margin: 1ch;
         border-radius: 5ch;
         box-shadow: #000000 5ch 1ch;
-    }
+    } */
     Image {
         height: 25%;
         align-self: center;
     }
-    .signup {
+    .google-btn {
         background-color: rgb(223, 93, 104);
     }
     .fb-btn { 
         background-color: #3b5998;
     }
-    button {
-        width: 50%;
-        height: 8%;
+    Button {
+        width: 70%;
+        height: 10%;
         margin: 0 0 0 0;
         font-size: 8%;
     }

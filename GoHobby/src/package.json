@@ -2,5 +2,8 @@
     "main": "main.js",
     "android": {
         "v8Flags": "--expose_gc"
+    },
+    "dependencies": {
+        "@types/node": "^11.13.2"
     }
 }
